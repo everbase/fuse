@@ -59,4 +59,4 @@ export CFLAGS
 export LDFLAGS
 
 ./makeconf.sh && \
-./configure --prefix="$PREFIX" --disable-dependency-tracking --enable-static --disable-example
+./configure --prefix="$PREFIX" --disable-dependency-tracking --disable-dynamic --enable-static --disable-example
